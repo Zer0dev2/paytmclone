@@ -1,0 +1,133 @@
+@media screen and (max-width: 700px) {
+  div {
+    overflow-x: hidden;
+  }
+  html{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .home-txt h2 {
+    font-size: 11vw;
+  }
+
+  .home-txt p {
+    font-size: 6vw;
+  }
+
+  .home-txt {
+    row-gap: 30px;
+  }
+  .home-img {
+    padding: 0;
+    margin: 0%;
+  }
+
+  .bill-hide {
+    display: none;
+  }
+
+  .page2-row .col .col-image {
+    width: 48px;
+  }
+
+  .page2 {
+    padding: 22px 20px;
+  }
+
+  .p3-heading {
+    font-size: 6vw;
+  }
+
+  .page4-txt h2 {
+    font-size: 9vw;
+  }
+  .page4-txt p {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .page4-row {
+    row-gap: 60px;
+    margin: 20px 0px;
+    padding: 10px;
+  }
+
+  .page7_column {
+    margin: 25px 0px;
+    border-radius: 32px;
+    padding: 20px;
+    overflow: hidden;
+    height: 61vh;
+  }
+
+  .page7_column h2 {
+    font-size: 9vw;
+  }
+
+  .page8 {
+    padding: 14px;
+  }
+  .page8-txt h3 {
+    font-size: 8vw;
+  }
+  .page8-txt p {
+    width: 100%;
+  }
+
+  .page8 {
+    height: fit-content;
+  }
+
+  .page8-txt h2 {
+    font-size: 10.5vw;
+  }
+  .page8-img{
+    height: 100vw;
+    margin-top: 53px;
+  }
+  .page9{
+  height: fit-content;  
+  }
+  .page9txt h2 {
+    font-size: 10vw;
+  margin: 40px 0px;}
+    .page10img{
+      height: 50vh;
+    }
+
+    .page11{
+      height: fit-content;
+    }
+    .cardd h3 {
+      font-weight: 700;
+      margin-bottom: 5vw;
+      font-size: 10vw;
+      margin-top: 8vw;}
+      .page10 {
+        height: fit-content;
+      }
+
+    
+    .footer {
+        justify-content: space-between;
+        align-items: center;
+        padding: 31px 18px}
+
+        .footer .col h2{
+          font-size: 6vw;
+    line-height: 1.3;
+
+        }
+
+        .footer .col img{
+          width: 160px;
+          margin: 10px;
+        }
+        .footer .col-md{
+          margin-top: 28px;
+    display: flex;
+    justify-content: center;
+        }
+}
